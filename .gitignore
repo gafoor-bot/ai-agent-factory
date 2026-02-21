@@ -1,0 +1,15 @@
+# Ignore entire sandbox folder
+sandbox/
+
+# Ignore community contributions folder
+community_contributions/
+
+# Ignore specific notebooks
+1_lab1_autogen_agentchat.ipynb
+2_lab2_autogen_agentchat.ipynb
+3_lab3_autogen_core.ipynb
+4_lab4_autogen_distributed.ipynb
+
+# Optional: ignore Python cache files
+__pycache__/
+*.pyc
