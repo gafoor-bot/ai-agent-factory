@@ -58,6 +58,28 @@ The system will:
 
 ---
 
+
+## 🖼️ Generated Agents & Output
+
+When you run the system, the Creator agent **dynamically generates AI agents** using GPT.  
+
+- Each agent is saved as a Python file: `agent1.py`, `agent2.py`, … up to `agent20.py`.  
+- These agents are **not created manually** — the Creator agent reads a template (`agent.py`) and generates **unique agents** with different personalities, interests, and goals.  
+- Each agent is immediately registered in the runtime and can **receive messages and generate business ideas**.
+
+### Example of Generated Ideas
+
+Each agent produces a business idea that is saved in a markdown file (`idea1.md`, `idea2.md`, … `idea20.md`).
+
+**idea1.md**
+Business Idea: "A personalized healthcare coaching platform using AI agents that track user habits, suggest lifestyle improvements, and provide motivational nudges. The platform integrates educational modules to teach users about wellness and preventive care, making health management interactive and personalized."
+
+
+**Notes:**
+- Each idea is **unique** because the agents have slightly different personalities and goals.  
+- Some ideas may be **refined by another agent** if the collaboration probability is triggered.  
+- You can open these `.md` files directly to read the generated ideas.
+  
 ## 👩‍💻 Author
 
 Gafoor Shaik – Creator of the AI Agent Idea Factory
